@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<div>
+    <h1>{{drinks.name}}</h1>
+    <p>{{drinks.pruchaser}} </p>
+    <p>{{ object.mug_shot.url }}</p>
+
+    <img src="{{ drinks.image.url }}" alt="">
+</div>
+{% endblock content %}
