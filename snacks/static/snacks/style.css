@@ -1,0 +1,9 @@
+body{
+    background-color: antiquewhite;
+}
+.con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
